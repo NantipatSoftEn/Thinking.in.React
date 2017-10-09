@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import FilterableProductTable from './Component/FilterableProductTable';
+import FilterableProductTable from './Main/FilterableProductTable';
 
 
 
@@ -13,7 +13,7 @@ const PRODUCTS = [
   {category: 'Electronics', price: '$199.99', stocked: true, name: 'Nexus 7'}
 ];
 
- 
+
 class App extends Component {
   render() {
     return (
