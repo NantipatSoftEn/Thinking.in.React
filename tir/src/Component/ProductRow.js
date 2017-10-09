@@ -16,3 +16,4 @@ class ProductRow extends Component {
     );
   }
 }
+export default ProductRow;

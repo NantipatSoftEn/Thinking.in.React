@@ -12,3 +12,4 @@ class ProductCategoryRow extends Component {
     );
   }
 }
+export default ProductCategoryRow;
