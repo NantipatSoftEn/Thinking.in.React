@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import SearchBar from '.././ComponentFilter/SearchBar';
 import ProductTable from '.././ComponentFilter/ProductTable';
 
+import Test from './Test';
 class FilterableProductTable extends Component {
     constructor(props) {
    super(props);
@@ -38,6 +39,8 @@ class FilterableProductTable extends Component {
            filterText={this.state.filterText}
            inStockOnly={this.state.inStockOnly}
          />
+
+         <Test name='fuck' age='12'/>
        </div>
     );
   }
