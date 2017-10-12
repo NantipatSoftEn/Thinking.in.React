@@ -11,6 +11,7 @@ class TestPropsSolveBasic extends Component {
         console.log('========\n');
 
         //===============================
+
         console.log("props child=",this.props.children);
         let state = {openedHash: {}};
         Children.toArray(props.children).forEach(child => {
@@ -33,9 +34,21 @@ class TestPropsSolveBasic extends Component {
                 expanded: openedHash[child.props.name],
                 onToggle: this.onToggle
             }))}
+            <div>
+            <Button>
+                <Heart/>
+            </Button>
+            </div>
         </div>
 
     );
   }
+}
+const Button  = (props) => <button>{props.children}</button>
+
+class Heart extends Component {
+    render(){
+        return (<span>&hearts;gg</span>)
+    }
 }
 export default TestPropsSolveBasic;
