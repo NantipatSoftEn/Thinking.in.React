@@ -4,6 +4,7 @@ import SearchBar from '.././ComponentFilter/SearchBar';
 import ProductTable from '.././ComponentFilter/ProductTable';
 
 import TestPropsSolveBasic from './Test/TestPropsSolveBasic';
+import WhereImUsingRadioGroups from './Test/WhereImUsingRadioGroups';
 class FilterableProductTable extends Component {
     constructor(props) {
    super(props);
@@ -42,6 +43,8 @@ class FilterableProductTable extends Component {
 
          <TestPropsSolveBasic name='fuck' age='12'/>
          <TestPropsSolveBasic nick='hh' />
+
+         <WhereImUsingRadioGroups />
        </div>
     );
   }
