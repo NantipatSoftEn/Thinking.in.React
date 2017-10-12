@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import SearchBar from '.././ComponentFilter/SearchBar';
 import ProductTable from '.././ComponentFilter/ProductTable';
 
-import Test from './Test';
+import TestPropsSolveBasic from './TestPropsSolveBasic';
 class FilterableProductTable extends Component {
     constructor(props) {
    super(props);
@@ -40,7 +40,8 @@ class FilterableProductTable extends Component {
            inStockOnly={this.state.inStockOnly}
          />
 
-         <Test name='fuck' age='12'/>
+         <TestPropsSolveBasic name='fuck' age='12'/>
+         <TestPropsSolveBasic nick='hh' />
        </div>
     );
   }
