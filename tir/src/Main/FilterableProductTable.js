@@ -41,10 +41,12 @@ class FilterableProductTable extends Component {
            inStockOnly={this.state.inStockOnly}
          />
 
-         <TestPropsSolveBasic name='fuck' age='12'/>
-         <TestPropsSolveBasic nick='hh' />
+         <TestPropsSolveBasic name='fuck' age='12'>
+
+         </TestPropsSolveBasic>
 
          <WhereImUsingRadioGroups />
+
        </div>
     );
   }
