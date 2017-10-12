@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import SearchBar from '.././ComponentFilter/SearchBar';
 import ProductTable from '.././ComponentFilter/ProductTable';
 
-import TestPropsSolveBasic from './TestPropsSolveBasic';
+import TestPropsSolveBasic from './Test/TestPropsSolveBasic';
 class FilterableProductTable extends Component {
     constructor(props) {
    super(props);
